@@ -20,5 +20,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
 	s.add_dependency('rqrencoder', '>= 0.1.2')
-	s.add_dependency('rmagick', '>= 2.13.1')
+	#s.add_dependency('rmagick', '>= 2.13.1')
+        s.add_dependency('rmagick', '>= 2.12.2')
 end
